@@ -780,9 +780,9 @@
   <Type name="opls_795" class="opls_795" element="O" mass="15.9994"/>
   <Type name="opls_796" class="opls_796" element="H" mass="1.008"/>
   <Type name="opls_797" class="opls_797" mass="0.0"/>
-  <Type name="opls_800" class="opls_800" element="H" mass="1.008" def="H[C;X4](Cl)(Cl)Cl" desc="H in chloroform"/>
-  <Type name="opls_801" class="opls_801" element="C" mass="12.011" def="[C;X4](Cl)(Cl)(H)Cl" desc="C in chloroform"/>
-  <Type name="opls_802" class="opls_802" element="Cl" mass="35.453" def="[Cl][C;X4](Cl)(Cl)H" desc="Cl in chloroform"/>
+  <Type name="opls_800" class="HC" element="H" mass="1.008" def="H[C;X4](Cl)(Cl)Cl" desc="H in chloroform"/>
+  <Type name="opls_801" class="CT" element="C" mass="12.011" def="[C;X4](Cl)(Cl)(H)Cl" desc="C in chloroform"/>
+  <Type name="opls_802" class="Cl" element="Cl" mass="35.453" def="[Cl][C;X4](Cl)(Cl)H" desc="Cl in chloroform"/>
   <Type name="opls_900" class="NT" element="N" mass="14.0067" def="[N;X3](H)(H)C" desc="N primary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_901" class="opls_901" element="N" mass="14.0067"/>
   <Type name="opls_902" class="opls_902" element="N" mass="14.0067"/>
@@ -3880,6 +3880,9 @@
   <Atom type="opls_795" charge="0.0" sigma="0.3215" epsilon="0.58576"/>
   <Atom type="opls_796" charge="0.511" sigma="1.0" epsilon="0.0"/>
   <Atom type="opls_797" charge="-1.022" sigma="1.0" epsilon="0.0"/>
+  <Atom type="opls_800" charge="0.1824" sigma="0.25" epsilon="0.12552"/>
+  <Atom type="opls_801" charge="0.0792" sigma="0.35" epsilon="0.276144"/>
+  <Atom type="opls_802" charge="0.1824" sigma="0.34" epsilon="0.12552"/>
   <Atom type="opls_900" charge="-0.9" sigma="0.33" epsilon="0.71128"/>
   <Atom type="opls_901" charge="-0.78" sigma="0.33" epsilon="0.71128"/>
   <Atom type="opls_902" charge="-0.63" sigma="0.33" epsilon="0.71128"/>
