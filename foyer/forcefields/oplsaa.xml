@@ -780,6 +780,9 @@
   <Type name="opls_795" class="opls_795" element="O" mass="15.9994"/>
   <Type name="opls_796" class="opls_796" element="H" mass="1.008"/>
   <Type name="opls_797" class="opls_797" mass="0.0"/>
+  <Type name="opls_800" class="opls_800" element="H" mass="1.008" def="H[C;X4](Cl)(Cl)Cl" desc="H in chloroform"/>
+  <Type name="opls_801" class="opls_801" element="C" mass="12.011" def="[C;X4](Cl)(Cl)(H)Cl" desc="C in chloroform"/>
+  <Type name="opls_802" class="opls_802" element="Cl" mass="35.453" def="[Cl][C;X4](Cl)(Cl)H" desc="Cl in chloroform"/>
   <Type name="opls_900" class="NT" element="N" mass="14.0067" def="[N;X3](H)(H)C" desc="N primary amines" doi="10.1021/ja984106u"/>
   <Type name="opls_901" class="opls_901" element="N" mass="14.0067"/>
   <Type name="opls_902" class="opls_902" element="N" mass="14.0067"/>
