@@ -357,14 +357,14 @@
   <Type name="opls_351" class="opls_351" element="C" mass="12.011"/>
   <Type name="opls_352" class="opls_352" element="N" mass="14.0067"/>
   <Type name="opls_353" class="opls_353" element="C" mass="12.011"/>
-  <Type name="opls_354" class="opls_354" element="N" mass="14.0067"/>
+  <Type name="opls_354" class="opls_354" element="N" mass="14.0067" def="[N;X3;R6](C)(C)(H)"/>
   <Type name="opls_354B" class="opls_354B" element="N" mass="14.0067"/>
   <Type name="opls_355" class="opls_355" element="H" mass="1.008"/>
   <Type name="opls_356" class="opls_356" element="N" mass="14.0067"/>
   <Type name="opls_357" class="opls_357" element="H" mass="1.008"/>
   <Type name="opls_358" class="opls_358" element="H" mass="1.008"/>
   <Type name="opls_359" class="opls_359" element="H" mass="1.008"/>
-  <Type name="opls_360" class="opls_360" element="H" mass="1.008"/>
+  <Type name="opls_360" class="opls_360" element="H" mass="1.008" def="H([N;%opls_354])"/>
   <Type name="opls_361" class="opls_361" element="N" mass="14.0067"/>
   <Type name="opls_362" class="opls_362" element="C" mass="12.011"/>
   <Type name="opls_363" class="opls_363" element="N" mass="14.0067"/>
@@ -2071,6 +2071,7 @@
   <Angle class1="CA" class2="S" class3="CT" angle="1.81863308058" k="518.816"/>
   <Angle class1="OH" class2="C" class3="N" angle="2.01463355558" k="292.88"/>
   <Angle class1="O2" class2="S" class3="CT" angle="1.86750229963" k="400.0"/>
+  <Angle class1="NT" class2="CA" class3="NT" angle="2.094395" k="585.76"/>
  </HarmonicAngleForce>
  <RBTorsionForce>
   <Proper class1="Br" class2="C" class3="CB" class4="CT" c0="0.0" c1="0.0" c2="0.0" c3="0.0" c4="0.0" c5="0.0"/>
